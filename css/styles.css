@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Condensed", "Helvetica Neue Condensed", sans-serif;
+    color: #f5f5f5;
+    background-color: #0d0814;
+}
+
+header {
+    background-color: #1a0826;
+    background-image: url('banner.png');
+    width: 100%;
+    height: 35vh;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#main-header {
+    width: 100%;
+}
+
+/* Riquadro scuro sopra il banner per rendere leggibile il testo */
+.header-box {
+    background-color: #1a0826;
+    width: 450px;
+    padding: 20px;
+    margin: 10px;
+}
+
+h1 {
+    color: #ff007f;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #00f0ff;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #ff007f;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+/* Riquadro contenitore principale */
+section {
+    background-color: #170d24;
+    color: #f5f5f5;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 40px;
+
+   
+    p {
+        margin-bottom: 15px;
+    }
+}
+
+#about {
+    background-color: #170d24;
+}
+
+/* Riquadro interno colorato per le card */
+div {
+    background-color: #241438;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Rientro per liste non ordinate (Lineup) */
+.activities {
+    ul {
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+}
+
+/* Rientro per liste ordinate (Horarios) */
+.information {
+    ol {
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+}
+
+
+.information h3 ~ p {
+    color: #d1bfe3;
+}
+
+
+.information h3 + p {
+    color: #00f0ff;
+}
+
+iframe {
+    width: 100%;
+    height: 380px;
+}
+
+
+section:has(iframe) {
+    background-color: #170d24;
+}
+
+footer {
+    background-color: #1a0826;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
